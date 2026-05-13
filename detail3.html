@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aktivitas Mahasiswa | Nazwa Portfolio</title>
+
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Poppins', sans-serif;
+      background:#fffafc;
+      color:#444;
+      line-height:1.8;
+    }
+
+    nav{
+      background:white;
+      padding:25px 10%;
+      position:sticky;
+      top:0;
+      z-index:1000;
+      box-shadow:0 2px 15px rgba(0,0,0,0.05);
+    }
+
+    nav ul{
+      display:flex;
+      justify-content:center;
+      gap:40px;
+      list-style:none;
+      flex-wrap:wrap;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:#8a63d2;
+      font-weight:500;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ff92b2;
+    }
+
+    .hero{
+      padding:100px 20px;
+      text-align:center;
+      background:linear-gradient(135deg,#f8d7ff,#ffe0ec);
+    }
+
+    .hero h1{
+      font-size:58px;
+      color:#7d57c2;
+      margin-bottom:20px;
+      line-height:1.3;
+    }
+
+    .hero p{
+      max-width:750px;
+      margin:auto;
+      color:#555;
+      font-size:18px;
+    }
+
+    .container-custom{
+      width:85%;
+      max-width:1100px;
+      margin:70px auto;
+    }
+
+    .card{
+      background:white;
+      border-radius:25px;
+      padding:40px;
+      margin-bottom:40px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.06);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card h2{
+      color:#7d57c2;
+      margin-bottom:20px;
+      font-size:30px;
+    }
+
+    .card ul{
+      padding-left:20px;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:25px;
+    }
+
+    .gallery img{
+      width:100%;
+      height:250px;
+      object-fit:cover;
+      border-radius:20px;
+      transition:0.3s;
+    }
+
+    .gallery img:hover{
+      transform:scale(1.03);
+    }
+
+    .button{
+      display:inline-block;
+      margin-top:25px;
+      background:#c7a4ff;
+      color:white;
+      padding:13px 30px;
+      border-radius:30px;
+      text-decoration:none;
+      transition:0.3s;
+      font-weight:500;
+    }
+
+    .button:hover{
+      background:#ff92b2;
+    }
+
+    footer{
+      background:#f8d7ff;
+      padding:60px 20px;
+      text-align:center;
+      margin-top:80px;
+    }
+
+    footer h2{
+      color:#7d57c2;
+      margin-bottom:15px;
+    }
+
+    footer p{
+      color:#666;
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:38px;
+      }
+
+      .card{
+        padding:25px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profil.html">Profil</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+
+    <h1>
+      Aktivitas Menjadi<br>
+      Mahasiswa
+    </h1>
+
+    <p>
+      Menjadi mahasiswa memberikan banyak pengalaman baru,
+      mulai dari kegiatan akademik, organisasi,
+      hingga pengembangan kemampuan diri dalam berbagai bidang.
+    </p>
+
+  </section>
+
+  <section class="container-custom">
+
+    <div class="card">
+
+      <h2>📚 Aktivitas Akademik</h2>
+
+      <p>
+        Sebagai mahasiswa Informatika, saya terus mengembangkan pemahaman di bidang teknologi, pemrograman, dan pengembangan sistem informasi melalui berbagai project dan proses pembelajaran selama perkuliahan. Pengalaman akademik ini membantu saya membangun kemampuan berpikir sistematis, analitis, dan kreatif dalam menyelesaikan permasalahan.
+      </p>
+
+      <ul>
+        <li>Mengerjakan project berbasis pemrograman dan sistem informasi</li>
+        <li>Mengembangkan website dan portfolio sederhana</li>
+        <li>Mempelajari HTML, CSS, serta dasar UI/UX</li>
+        <li>Menyelesaikan tugas individu maupun kolaboratif secara terstruktur</li>
+      </ul>
+
+    </div>
+
+    <div class="card">
+
+      <h2>🤝 Aktivitas Non-Akademik</h2>
+
+      <p>
+        Selain fokus pada akademik, saya juga aktif dalam berbagai organisasi dan kepanitiaan kampus sebagai sarana pengembangan diri, kepemimpinan, serta pengalaman berorganisasi. Kegiatan ini memberikan banyak pembelajaran mengenai tanggung jawab, koordinasi, dan profesionalisme dalam bekerja bersama tim.
+      </p>
+
+      <ul>
+        <li>Aktif dalam kegiatan himpunan dan organisasi mahasiswa</li>
+        <li>Terlibat dalam kepanitiaan berbagai kegiatan kampus</li>
+        <li>Berkontribusi dalam koordinasi dan pelaksanaan acara</li>
+        <li>Mengembangkan kemampuan komunikasi dan manajemen kegiatan</li>
+      </ul>
+
+    </div>
+
+    <div class="card">
+
+      <h2>🌱 Pengalaman & Pembelajaran</h2>
+
+      <p>
+        Bagi saya, dunia perkuliahan bukan hanya tempat memperoleh ilmu akademik, tetapi juga proses untuk bertumbuh, beradaptasi, dan membangun kualitas diri. Berbagai pengalaman yang dijalani membantu saya menjadi pribadi yang lebih disiplin, percaya diri, dan terbuka terhadap tantangan baru.
+      </p>
+
+      <ul>
+        <li>Belajar mengelola waktu dan tanggung jawab</li>
+        <li>Beradaptasi dengan lingkungan dan pengalaman baru</li>
+        <li>Meningkatkan rasa percaya diri dalam berbagai situasi</li>
+        <li>Terus mengembangkan diri melalui pengalaman positif</li>
+      </ul>
+
+    </div>
+
+    <div class="card">
+
+      <h2>📸 Dokumentasi Sebagai Mahasiswa</h2>
+
+      <div class="gallery">
+
+        <img src="image/aktifitas.jpg">
+        <img src="image/pengalaman.jpg">
+        
+
+      </div>
+
+      <a href="index.html" class="button">
+        ← Kembali ke Home
+      </a>
+
+    </div>
+
+  </section>
+
+  <footer id="contact">
+
+    <h2>Thank You 💜</h2>
+
+    <p>
+      Made with love by Nazwa • 2026
+    </p>
+
+  </footer>
+
+</body>
+</html>
